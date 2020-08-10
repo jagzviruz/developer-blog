@@ -1,0 +1,9 @@
+language: node_js
+before_script:
+  - npm install
+deploy:
+  provider: script
+  script: npm run cideploy
+  skip_cleanup: true
+  on:
+    branch: master
