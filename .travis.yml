@@ -5,7 +5,7 @@ script:
 - npm run build
 deploy:
   provider: pages
-  token: $GH_TOKEN
+  token: $GITHUB_TOKEN
   cleanup: true
   keep_history: true
   on:

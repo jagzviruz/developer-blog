@@ -31,6 +31,8 @@ Account settings -> Developer settings -> Personal access tokens
 ```
 and create a new token that provides the repo access permissions.
 
+![](./SAFE_TO_DELETE/00.png)
+
 #### Step 2: Updated TravisCI
 
 In the Travis configuration, for the repository add a new secret environment variable of the name `GH_TOKEN` with the value of the token obtained from GitHub. Make sure you DO NOT toggle the display in build logs setting as the token is best to remain secret. Otherwise, others are able to push to your repository.
