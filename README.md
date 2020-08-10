@@ -1,7 +1,8 @@
 
 ## How to use this
 
-This repository is built using `gatsby` and allows you to publish by writing in `Markdown`. You can fork this repository to your own github account and get started.
+This repository is built using `gatsby` and allows you to publish by writing in `Markdown`.
+Fork this repository to your own github account as `<username>.github.io` for the repo name.
 
 You want to look at the following:
 - `config/metadata.js` to customise various setting with respect to your profile like `name`, `description`, `email` etc.
