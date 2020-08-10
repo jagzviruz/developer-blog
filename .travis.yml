@@ -2,8 +2,10 @@ language: node_js
 before_script:
   - npm install
 deploy:
-  provider: script
+  provider: pages
+  github_token: $GH_TOKEN
   script: npm run cideploy
   skip_cleanup: true
+  keep_history: true
   on:
     branch: master

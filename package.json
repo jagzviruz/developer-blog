@@ -58,7 +58,6 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "deploy": "gatsby build && gh-pages -d public",
-    "cideploy": "gatsby build && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
