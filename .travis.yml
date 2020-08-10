@@ -4,10 +4,12 @@ before_script:
 script:
 - npm run build
 deploy:
-  provider: pages
+  provider: pages:git
   token: $GITHUB_TOKEN
+  edge: true
+  verbose: true
   cleanup: false
   keep_history: false
-  local_dir: public
+  local_dir: ./public
   on:
     branch: master
